@@ -7,10 +7,8 @@ body {
 
   /* THEME CSS VARIABLES */
 
-  --primary-color: #00bcd4;
+  /* --primary-color: is set dynamically in page/index.js */
   --background-color: #efefef;
-
-  /* --primary-color: #e8676a; */
   --text-default: #333;
   --text-muted: #9da0a7;
   --text-default-invert: #fff;

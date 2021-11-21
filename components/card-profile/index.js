@@ -1,4 +1,5 @@
 import React from "react"
+import { useTranslation } from "react-i18next";
 import {
   StyledContainer,
   StyledCardProfile,
@@ -33,11 +34,13 @@ const ProfileDetails = [
   },
 ]
 function CardProfile(props) {
+  const { t } = useTranslation();
+
   return (
     <StyledCardProfile>
       <StyledProfileImage />
       <StyledContainer>
-        <StyledGreetingIcon>Hello</StyledGreetingIcon>
+        <StyledGreetingIcon>{t('greeting')}</StyledGreetingIcon>
         <StyledTitle>
           I&apos;m <span>Ricardo Vivas</span>
         </StyledTitle>
