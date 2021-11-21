@@ -1,18 +1,9 @@
 import Head from "next/head"
 import Image from "next/image"
+import Card from "../components/card"
 import styles from "../styles/Home.module.css"
-import styled from "styled-components"
-
-const StyledComponentTest = styled.div`
-  width: 40px;
-  height: 40px;
-  background: #f00;
-  &:hover {
-    background: #0f0;
 
 
-  }
-`
 
 export default function Home() {
   return (
@@ -24,7 +15,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <StyledComponentTest />
+        <Card>
+          HOla mundo
+        </Card>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
