@@ -1,6 +1,7 @@
 import Head from "next/head"
 import React from "react";
 import CardProfile from "../components/card-profile"
+import Button from "../components/button"
 import { StyledMain } from "./styles"
 
 
@@ -15,6 +16,7 @@ export default function Home() {
       </Head>
       <StyledMain>
         <CardProfile />
+        <Button>DOWNLOAD CV</Button>
       </StyledMain>
   </React.Fragment>
   );

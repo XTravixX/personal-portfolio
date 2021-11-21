@@ -5,17 +5,18 @@ body {
   font-family: 'Open Sans', sans-serif;
 
 
-
   /* THEME CSS VARIABLES */
 
   --primary-color: #00bcd4;
+  --background-color: #efefef;
+
   /* --primary-color: #e8676a; */
   --text-default: #333;
   --text-muted: #9da0a7;
   --text-default-invert: #fff;
 
-
   color: var(--text-default);
+  background-color: var(--background-color);
 }
 
 
