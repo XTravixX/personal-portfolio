@@ -2,7 +2,6 @@ import Head from "next/head"
 import Image from "next/image"
 import styles from "../styles/Home.module.css"
 import styled from "styled-components"
-import React, { useState } from "react"
 
 const StyledComponentTest = styled.div`
   width: 40px;
@@ -10,17 +9,12 @@ const StyledComponentTest = styled.div`
   background: #f00;
   &:hover {
     background: #0f0;
+
+
   }
 `
 
 export default function Home() {
-let a = 0;
-
-  React.useEffect(() => {
-    a++;
-
-    console.log('%c⧭', 'color: #ff0000', 'warrrniiiing');
-  },[]);
   return (
     <div className={styles.container}>
       <Head>
