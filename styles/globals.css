@@ -18,6 +18,18 @@ body {
   color: var(--text-default);
 }
 
+
+::-moz-selection {
+  color: var(--text-default-invert);
+  background: var(--primary-color);
+}
+::selection {
+  color: var(--text-default-invert);
+  background: var(--primary-color);
+}
+
+
+
 a {
   color: inherit;
   text-decoration: none;
