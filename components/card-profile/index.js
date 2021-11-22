@@ -42,9 +42,9 @@ function CardProfile(props) {
       <StyledContainer>
         <StyledGreetingIcon>{t('greeting')}</StyledGreetingIcon>
         <StyledTitle>
-          I&apos;m <span>Ricardo Vivas</span>
+          {t('hi')} <span>{t('name')}</span>
         </StyledTitle>
-        <StyledSubtitle>Developer and Startup entrepreneur</StyledSubtitle>
+        <StyledSubtitle>{t('ocupation')}</StyledSubtitle>
 
         <hr />
 
@@ -58,9 +58,15 @@ function CardProfile(props) {
         </StyledDetailList>
       </StyledContainer>
       <StyledFooterCardProfile>
-        <a>GMAIl</a>
-        <a>LINKE</a>
-        <a>LINKEGi</a>
+        <a href="mailto:ing.ricardovivas@gmail.com">
+          <img src='gmail.svg'/>
+        </a>
+        <a href="https://linkedin.com/in/ricardo-vivas-68793b100">
+          <img src='linkedin.svg'/>
+        </a>
+        <a href="https://github.com/XTravixX">
+          <img src='github.svg'/>
+        </a>
       </StyledFooterCardProfile>
     </StyledCardProfile>
   )
